@@ -15,7 +15,7 @@ public class PalindromePermutation {
 		
 		for(int i = 0; i< str.length(); i++) {
 			char t = str.charAt(i);
-			if(t != ' ' && Character.valueOf(t) >= Character.valueOf('a') 
+			if(t != ' ' && Character.valueOf(t) >= Character.valueOf('a')  
 					&& Character.valueOf(t) <= Character.valueOf('z')) {
 				
 				a[Character.valueOf(t) - Character.valueOf('a')]++;
